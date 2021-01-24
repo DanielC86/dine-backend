@@ -1,4 +1,4 @@
-package com.dine.dinebackend.Entity;
+package com.dine.dinebackend.entity;
 
 import lombok.Data;
 
