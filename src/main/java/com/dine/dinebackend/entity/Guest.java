@@ -16,4 +16,8 @@ public class Guest {
 
     @Column(name = "token")
     private String token;
+
+    @ManyToOne
+    @JoinColumn(name = "reservation_id", nullable = false)
+    private Reservation guestReservation;
 }

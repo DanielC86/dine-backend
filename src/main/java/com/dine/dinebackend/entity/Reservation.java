@@ -40,7 +40,10 @@ public class Reservation {
     @JoinColumn(name = "restaurant_id")
     private Restaurant restaurant;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "table_id")
-    private Set<RestaurantTable> restaurantTable;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "tableReservation")
+    private Set<RestaurantTable> restaurantTables;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "guestReservation")
+    private Set<Guest> guests;
 
 }
