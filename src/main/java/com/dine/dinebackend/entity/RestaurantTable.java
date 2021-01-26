@@ -26,7 +26,8 @@ public class RestaurantTable {
     @JoinColumn(name = "restaurant_id")
     private Restaurant restaurants;
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "reservation_id")
-    private Reservation reservation;
+    @ManyToOne
+    @JoinColumn(name = "reservation_id", nullable = false)
+    private Reservation tableReservation;
+
 }
