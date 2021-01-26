@@ -1,0 +1,19 @@
+package com.dine.dinebackend.entity;
+
+import lombok.Data;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "guest")
+@Data
+public class Guest {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private long id;
+
+    @Column(name = "token")
+    private String token;
+}

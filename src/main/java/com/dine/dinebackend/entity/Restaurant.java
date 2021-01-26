@@ -38,9 +38,6 @@ public class Restaurant {
     @Column(name = "number_of_tables")
     private int numberOfTables;
 
-    @Column(name = "restaurant_type")
-    private String restaurantType;
-
     @Column(name = "is_takeaway")
     private boolean isTakeaway;
 }
