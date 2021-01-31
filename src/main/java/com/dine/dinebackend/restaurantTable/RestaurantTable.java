@@ -1,11 +1,11 @@
-package com.dine.dinebackend.entity;
+package com.dine.dinebackend.restaurantTable;
 
-import lombok.Data;
+import com.dine.dinebackend.reservation.Reservation;
+import com.dine.dinebackend.restaurant.Restaurant;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.Set;
 
 @Entity
 @Table(name = "restaurant_table")

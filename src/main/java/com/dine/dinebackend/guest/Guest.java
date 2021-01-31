@@ -1,5 +1,6 @@
-package com.dine.dinebackend.entity;
+package com.dine.dinebackend.guest;
 
+import com.dine.dinebackend.reservation.Reservation;
 import lombok.Data;
 
 import javax.persistence.*;

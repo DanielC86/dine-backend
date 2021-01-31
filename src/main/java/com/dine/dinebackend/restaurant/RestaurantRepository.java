@@ -1,6 +1,6 @@
-package com.dine.dinebackend.repository;
+package com.dine.dinebackend.restaurant;
 
-import com.dine.dinebackend.entity.Restaurant;
+import com.dine.dinebackend.restaurant.Restaurant;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 

@@ -1,6 +1,8 @@
-package com.dine.dinebackend.entity;
+package com.dine.dinebackend.reservation;
 
-import lombok.Data;
+import com.dine.dinebackend.guest.Guest;
+import com.dine.dinebackend.restaurant.Restaurant;
+import com.dine.dinebackend.restaurantTable.RestaurantTable;
 import lombok.Getter;
 import lombok.Setter;
 

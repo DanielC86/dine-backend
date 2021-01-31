@@ -1,4 +1,4 @@
-package com.dine.dinebackend.entity;
+package com.dine.dinebackend.restaurant;
 
 import lombok.Data;
 
